@@ -149,5 +149,6 @@ STATICFILES_STORAGE="whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+CSRF_TRUSTED_ORIGINS=['https://landfapp-production.up.railway.app','https://*.127.0.0.1']
 
 CORS_ALLOW_ALL_ORIGINS = True
