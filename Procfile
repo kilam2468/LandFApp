@@ -1,0 +1,1 @@
+web gunicorn LandF.wsgi --log-file
